@@ -46,16 +46,16 @@ class Main {
     {
         System.out.print("A");
     }
-    else if(avg>=80 && avg<89)
+    else if(avg >= 80)
     {
         System.out.print("B");
     }
-    else if(avg>=70 && avg<79)
+    else if(avg>=70)
     {
         System.out.print("C");
     }
 
-    else if(avg>=60 && avg<69)
+    else if(avg>=60)
     {
         System.out.print("D");
     }
