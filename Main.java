@@ -42,21 +42,26 @@ class Main {
 
     // Define variables for for loop
 
-    if(avg>=80)
+    if(avg>=90)
     {
         System.out.print("A");
     }
-    else if(avg>=60 && avg<80)
+    else if(avg>=80 && avg<89)
     {
         System.out.print("B");
     }
-    else if(avg>=40 && avg<60)
+    else if(avg>=70 && avg<79)
     {
         System.out.print("C");
     }
-    else
+
+    else if(avg>=60 && avg<69)
     {
         System.out.print("D");
+    }
+    else
+    {
+        System.out.print("F");
     }
   }
 }
